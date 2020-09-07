@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "path": "pages/introduccion.html"
+  }, 
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. Cumplimiento de requisitos de una EAT",
+    "path": "pages/tema-1.html"
+  },
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "tema-2",
+    "title": "2. Documentos requeridos para la constitución de una EAT",
+    "path": "pages/tema-2.html" 
+  }
+]
