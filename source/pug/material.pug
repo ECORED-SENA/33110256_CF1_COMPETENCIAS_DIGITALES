@@ -34,22 +34,31 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Cumplimiento de requisitos de una Empresa Asociativa de Trabajo', '#tema-1')
-                                    +navTemaItem('2', 'Documentos requeridos para la constitución de una Empresa Asociativa de Trabajo', '#tema-2')
+                                    +navTemaItem('1', 'Normatividad', 'main.html#page/tema-1/')
+                                    +navTemaItem('2', 'Habilitación', 'main.html#page/tema-2/')
+                                    +navTemaItem('3', 'Telesalud: competencias digitales generales', 'main.html#page/tema-3/')
+                                    +navTemaItem('4', 'Alfabetización digital', 'main.html#page/tema-4/')
+                                    +navTemaItem('5', 'Sistema de información clínica', 'main.html#page/tema-5/')
+                                    +navTemaItem('6', 'Computación en la nube', 'main.html#page/tema-6/')
                                     +navTemaItem('glosario', 'Glosario', '#glosario')
                                     +navTemaItem('complementario', 'Material complementario', '#anexos')
                                     +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
+
             #tema-1
                 include pages/tema-1.pug
             #tema-2
                 include pages/tema-2.pug
-
+            #tema-1
+                include pages/tema-3.pug
+            #tema-2
+                include pages/tema-4.pug
+            #tema-1
+                include pages/tema-5.pug
+            #tema-2
+                include pages/tema-6.pug                
             #glosario
                 include pages/glosario.pug
             #anexos

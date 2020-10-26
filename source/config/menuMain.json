@@ -6,21 +6,39 @@
     "path": "index.html"
   },  
   {
-    "icon": "fa fa-play-circle",
-    "slug": "introduccion",
-    "title": "Introducción",
-    "path": "pages/introduccion.html"
+    "icon": "fa fa-file-text",
+    "slug": "tema-1",
+    "title": "1. Normatividad",
+    "path": "pages/tema-1.html"
   }, 
   {
-    "icon": "fa fa-play-circle",
-    "slug": "tema-1",
-    "title": "1. Cumplimiento de requisitos de una EAT",
-    "path": "pages/tema-1.html"
+    "icon": "fa fa-file-text",
+    "slug": "tema-2",
+    "title": "2. Habilitación",
+    "path": "pages/tema-2.html"
+  },
+  {
+    "icon": "fa fa-file-text",
+    "slug": "tema-3",
+    "title": "3. Telesalud: competencias digitales generales",
+    "path": "pages/tema-3.html" 
   },
   {
     "icon": "fa fa-play-circle",
-    "slug": "tema-2",
-    "title": "2. Documentos requeridos para la constitución de una EAT",
-    "path": "pages/tema-2.html" 
+    "slug": "tema-4",
+    "title": "4. Alfabetización digital",
+    "path": "pages/tema-4.html" 
+  },
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "tema-5",
+    "title": "5. Sistema de información clínica",
+    "path": "pages/tema-5.html" 
+  },
+  {
+    "icon": "fa fa-file-text",
+    "slug": "tema-6",
+    "title": "6. Computación en la nube",
+    "path": "pages/tema-6.html" 
   }
 ]

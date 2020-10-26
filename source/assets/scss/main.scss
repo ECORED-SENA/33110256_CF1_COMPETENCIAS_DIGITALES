@@ -8,6 +8,8 @@
 @import './vendor/dashkit/dashkit';
 
 @import 'base/base';
+@import 'base/titulos';
+@import 'base/listas';
 @import 'base/helpers';
 
 @import 'layout/divider';
@@ -35,5 +37,6 @@
 @import 'modulos/timeline';
 @import 'modulos/quote';
 @import 'modulos/ruta';
+@import 'modulos/list';
 
 @import 'pages/custom';
